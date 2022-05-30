@@ -3,6 +3,7 @@ import React from 'react';
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 import { Navbar } from './components';
 import './App.css';
+import BookTable from './BookTable/BookTable';
 
 const App = () => (
   <div>
@@ -17,6 +18,7 @@ const App = () => (
     <Gallery />
 <FindUs />
     <Footer /> 
+    <BookTable/>
   </div>
 );
 
