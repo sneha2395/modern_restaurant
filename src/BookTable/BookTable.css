@@ -1,0 +1,20 @@
+.booktable {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: var(--color-black);
+    padding: 4rem 6rem;
+}
+
+.app__email-heading {
+    text-align: center;
+}
+
+.app__email-input {
+    flex-direction: row;
+    margin-top: 3rem;
+}
