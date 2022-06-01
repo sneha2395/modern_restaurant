@@ -8,17 +8,17 @@ import BookTable from './BookTable/BookTable';
 const App = () => (
   <div>
     <Navbar />
-   <Header />
-   <AboutUs/>
-
+    <Header />
+    <AboutUs />
+    <BookTable />
     <SpecialMenu />
-   <Chef />
+    <Chef />
     <Intro />
-   <Laurels />
+    <Laurels />
     <Gallery />
-<FindUs />
-    <Footer /> 
-    <BookTable/>
+    <FindUs />
+    <Footer />
+
   </div>
 );
 
